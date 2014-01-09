@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1BE53A3187EC7AA0022F794 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1BE53A2187EC7AA0022F794 /* Foundation.framework */; };
+		B1BE53A5187EC7AB0022F794 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1BE53A4187EC7AB0022F794 /* CoreGraphics.framework */; };
+		B1BE53A7187EC7AB0022F794 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1BE53A6187EC7AB0022F794 /* UIKit.framework */; };
+		B1BE53AD187EC7AB0022F794 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1BE53AB187EC7AB0022F794 /* InfoPlist.strings */; };
+		B1BE53AF187EC7AB0022F794 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BE53AE187EC7AB0022F794 /* main.m */; };
+		B1BE53B3187EC7AB0022F794 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BE53B2187EC7AB0022F794 /* AppDelegate.m */; };
+		B1BE53B6187EC7AB0022F794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1BE53B4187EC7AB0022F794 /* Main.storyboard */; };
+		B1BE53B9187EC7AB0022F794 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BE53B8187EC7AB0022F794 /* ViewController.m */; };
+		B1BE53BB187EC7AB0022F794 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1BE53BA187EC7AB0022F794 /* Images.xcassets */; };
+		B1BE53C2187EC7AB0022F794 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1BE53C1187EC7AB0022F794 /* XCTest.framework */; };
+		B1BE53C3187EC7AB0022F794 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1BE53A2187EC7AA0022F794 /* Foundation.framework */; };
+		B1BE53C4187EC7AB0022F794 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1BE53A6187EC7AB0022F794 /* UIKit.framework */; };
+		B1BE53CC187EC7AB0022F794 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1BE53CA187EC7AB0022F794 /* InfoPlist.strings */; };
+		B1BE53CE187EC7AB0022F794 /* SampleGridViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BE53CD187EC7AB0022F794 /* SampleGridViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1BE53C5187EC7AB0022F794 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1BE5397187EC7AA0022F794 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1BE539E187EC7AA0022F794;
+			remoteInfo = SampleGridView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1BE539F187EC7AA0022F794 /* SampleGridView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleGridView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1BE53A2187EC7AA0022F794 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B1BE53A4187EC7AB0022F794 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B1BE53A6187EC7AB0022F794 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B1BE53AA187EC7AB0022F794 /* SampleGridView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleGridView-Info.plist"; sourceTree = "<group>"; };
+		B1BE53AC187EC7AB0022F794 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1BE53AE187EC7AB0022F794 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1BE53B0187EC7AB0022F794 /* SampleGridView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleGridView-Prefix.pch"; sourceTree = "<group>"; };
+		B1BE53B1187EC7AB0022F794 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B1BE53B2187EC7AB0022F794 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B1BE53B5187EC7AB0022F794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1BE53B7187EC7AB0022F794 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B1BE53B8187EC7AB0022F794 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B1BE53BA187EC7AB0022F794 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B1BE53C0187EC7AB0022F794 /* SampleGridViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleGridViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1BE53C1187EC7AB0022F794 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B1BE53C9187EC7AB0022F794 /* SampleGridViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleGridViewTests-Info.plist"; sourceTree = "<group>"; };
+		B1BE53CB187EC7AB0022F794 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1BE53CD187EC7AB0022F794 /* SampleGridViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleGridViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1BE539C187EC7AA0022F794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1BE53A5187EC7AB0022F794 /* CoreGraphics.framework in Frameworks */,
+				B1BE53A7187EC7AB0022F794 /* UIKit.framework in Frameworks */,
+				B1BE53A3187EC7AA0022F794 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1BE53BD187EC7AB0022F794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1BE53C2187EC7AB0022F794 /* XCTest.framework in Frameworks */,
+				B1BE53C4187EC7AB0022F794 /* UIKit.framework in Frameworks */,
+				B1BE53C3187EC7AB0022F794 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1BE5396187EC7AA0022F794 = {
+			isa = PBXGroup;
+			children = (
+				B1BE53A8187EC7AB0022F794 /* SampleGridView */,
+				B1BE53C7187EC7AB0022F794 /* SampleGridViewTests */,
+				B1BE53A1187EC7AA0022F794 /* Frameworks */,
+				B1BE53A0187EC7AA0022F794 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1BE53A0187EC7AA0022F794 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1BE539F187EC7AA0022F794 /* SampleGridView.app */,
+				B1BE53C0187EC7AB0022F794 /* SampleGridViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1BE53A1187EC7AA0022F794 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1BE53A2187EC7AA0022F794 /* Foundation.framework */,
+				B1BE53A4187EC7AB0022F794 /* CoreGraphics.framework */,
+				B1BE53A6187EC7AB0022F794 /* UIKit.framework */,
+				B1BE53C1187EC7AB0022F794 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1BE53A8187EC7AB0022F794 /* SampleGridView */ = {
+			isa = PBXGroup;
+			children = (
+				B1BE53B1187EC7AB0022F794 /* AppDelegate.h */,
+				B1BE53B2187EC7AB0022F794 /* AppDelegate.m */,
+				B1BE53B4187EC7AB0022F794 /* Main.storyboard */,
+				B1BE53B7187EC7AB0022F794 /* ViewController.h */,
+				B1BE53B8187EC7AB0022F794 /* ViewController.m */,
+				B1BE53BA187EC7AB0022F794 /* Images.xcassets */,
+				B1BE53A9187EC7AB0022F794 /* Supporting Files */,
+			);
+			path = SampleGridView;
+			sourceTree = "<group>";
+		};
+		B1BE53A9187EC7AB0022F794 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1BE53AA187EC7AB0022F794 /* SampleGridView-Info.plist */,
+				B1BE53AB187EC7AB0022F794 /* InfoPlist.strings */,
+				B1BE53AE187EC7AB0022F794 /* main.m */,
+				B1BE53B0187EC7AB0022F794 /* SampleGridView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1BE53C7187EC7AB0022F794 /* SampleGridViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1BE53CD187EC7AB0022F794 /* SampleGridViewTests.m */,
+				B1BE53C8187EC7AB0022F794 /* Supporting Files */,
+			);
+			path = SampleGridViewTests;
+			sourceTree = "<group>";
+		};
+		B1BE53C8187EC7AB0022F794 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1BE53C9187EC7AB0022F794 /* SampleGridViewTests-Info.plist */,
+				B1BE53CA187EC7AB0022F794 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1BE539E187EC7AA0022F794 /* SampleGridView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1BE53D1187EC7AB0022F794 /* Build configuration list for PBXNativeTarget "SampleGridView" */;
+			buildPhases = (
+				B1BE539B187EC7AA0022F794 /* Sources */,
+				B1BE539C187EC7AA0022F794 /* Frameworks */,
+				B1BE539D187EC7AA0022F794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleGridView;
+			productName = SampleGridView;
+			productReference = B1BE539F187EC7AA0022F794 /* SampleGridView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1BE53BF187EC7AB0022F794 /* SampleGridViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1BE53D4187EC7AB0022F794 /* Build configuration list for PBXNativeTarget "SampleGridViewTests" */;
+			buildPhases = (
+				B1BE53BC187EC7AB0022F794 /* Sources */,
+				B1BE53BD187EC7AB0022F794 /* Frameworks */,
+				B1BE53BE187EC7AB0022F794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1BE53C6187EC7AB0022F794 /* PBXTargetDependency */,
+			);
+			name = SampleGridViewTests;
+			productName = SampleGridViewTests;
+			productReference = B1BE53C0187EC7AB0022F794 /* SampleGridViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1BE5397187EC7AA0022F794 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = TAVANT;
+				TargetAttributes = {
+					B1BE53BF187EC7AB0022F794 = {
+						TestTargetID = B1BE539E187EC7AA0022F794;
+					};
+				};
+			};
+			buildConfigurationList = B1BE539A187EC7AA0022F794 /* Build configuration list for PBXProject "SampleGridView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1BE5396187EC7AA0022F794;
+			productRefGroup = B1BE53A0187EC7AA0022F794 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1BE539E187EC7AA0022F794 /* SampleGridView */,
+				B1BE53BF187EC7AB0022F794 /* SampleGridViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1BE539D187EC7AA0022F794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1BE53BB187EC7AB0022F794 /* Images.xcassets in Resources */,
+				B1BE53AD187EC7AB0022F794 /* InfoPlist.strings in Resources */,
+				B1BE53B6187EC7AB0022F794 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1BE53BE187EC7AB0022F794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1BE53CC187EC7AB0022F794 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1BE539B187EC7AA0022F794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1BE53B9187EC7AB0022F794 /* ViewController.m in Sources */,
+				B1BE53B3187EC7AB0022F794 /* AppDelegate.m in Sources */,
+				B1BE53AF187EC7AB0022F794 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1BE53BC187EC7AB0022F794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1BE53CE187EC7AB0022F794 /* SampleGridViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1BE53C6187EC7AB0022F794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1BE539E187EC7AA0022F794 /* SampleGridView */;
+			targetProxy = B1BE53C5187EC7AB0022F794 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1BE53AB187EC7AB0022F794 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1BE53AC187EC7AB0022F794 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B1BE53B4187EC7AB0022F794 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1BE53B5187EC7AB0022F794 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1BE53CA187EC7AB0022F794 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1BE53CB187EC7AB0022F794 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1BE53CF187EC7AB0022F794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B1BE53D0187EC7AB0022F794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1BE53D2187EC7AB0022F794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleGridView/SampleGridView-Prefix.pch";
+				INFOPLIST_FILE = "SampleGridView/SampleGridView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B1BE53D3187EC7AB0022F794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleGridView/SampleGridView-Prefix.pch";
+				INFOPLIST_FILE = "SampleGridView/SampleGridView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B1BE53D5187EC7AB0022F794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SampleGridView.app/SampleGridView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleGridView/SampleGridView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SampleGridViewTests/SampleGridViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B1BE53D6187EC7AB0022F794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SampleGridView.app/SampleGridView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleGridView/SampleGridView-Prefix.pch";
+				INFOPLIST_FILE = "SampleGridViewTests/SampleGridViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1BE539A187EC7AA0022F794 /* Build configuration list for PBXProject "SampleGridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1BE53CF187EC7AB0022F794 /* Debug */,
+				B1BE53D0187EC7AB0022F794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1BE53D1187EC7AB0022F794 /* Build configuration list for PBXNativeTarget "SampleGridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1BE53D2187EC7AB0022F794 /* Debug */,
+				B1BE53D3187EC7AB0022F794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B1BE53D4187EC7AB0022F794 /* Build configuration list for PBXNativeTarget "SampleGridViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1BE53D5187EC7AB0022F794 /* Debug */,
+				B1BE53D6187EC7AB0022F794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1BE5397187EC7AA0022F794 /* Project object */;
+}
