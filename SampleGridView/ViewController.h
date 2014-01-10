@@ -2,9 +2,10 @@
 //  ViewController.h
 //  SampleGridView
 //
-//  Created by TAVANT on 1/9/14.
+//  Created byTAVANT on 1/9/14.
 //  Copyright (c) 2014 TAVANT. All rights reserved.
 //
+///
 
 #import <UIKit/UIKit.h>
 
