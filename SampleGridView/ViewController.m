@@ -13,11 +13,31 @@
 @end
 
 @implementation ViewController
+@synthesize sampleCollection;
 
-- (void)viewDidLoad
+static NSString * CellIdentifier = @"CellIdentifier";
+
+-(void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [self.sampleCollection registerClass:[UICollectionViewCell class]
+            forCellWithReuseIdentifier:CellIdentifier];
+}
+-(NSInteger)collectionView:(UICollectionView *)collectionView
+    numberOfItemsInSection:(NSInteger)section
+{
+    return 8;
+}
+
+-(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView
+                 cellForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    UICollectionViewCell *cell = [collectionView
+                                  dequeueReusableCellWithReuseIdentifier:CellIdentifier
+                                  forIndexPath:indexPath];
+    
+    cell.backgroundColor = [UIColor orangeColor];
+    return cell;
 }
 
 - (void)didReceiveMemoryWarning
